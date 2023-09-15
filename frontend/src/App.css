@@ -1,0 +1,14 @@
+.rabo-bank-transaction{
+  text-align: center;
+  padding: 25px;
+}
+
+.file-upload{
+  width: 50%;
+  float: right;
+}
+
+.file-selection{
+  width: 50%;
+  float: left;
+}
