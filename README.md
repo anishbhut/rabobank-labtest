@@ -19,10 +19,10 @@ npm install
 ```
 
 ```bash
-npm start
+npm run start
 ```
 
-Go to frontend dir
+Go to backend dir
 
 Install all the npm packages.
 
@@ -34,6 +34,6 @@ npm install
 node server.js
 ```
 
-#### URL
+#### Front-end URL
 
 http://localhost:3000/
