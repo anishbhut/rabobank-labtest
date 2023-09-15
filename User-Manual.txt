@@ -1,0 +1,8 @@
+Steps to be followed for file validation:
+
+1.  Launch both the application.
+2.  Click on "Select A File" button.
+3.  Upload support files (only csv, xml allowed).
+4.  Click on "Validate Data" button.
+5.  Once the validation is completed, if all records are valid then success message will display else records will display with appropriate error message.
+

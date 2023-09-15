@@ -1,0 +1,28 @@
+List of below assumption and validation applied.  Please refer while using application.
+
+Assumptions:
+1.	xml and csv all required field are required and available in file.
+2.	Reference, Account, Number, Description, Start Balance, Mutation, End Balance column will exist in csv and xml all node will available.
+3.	There is no max length validation applier in any row.
+4.	Start, Mutation and End balance are numeric.
+5.	First row in CSV for column title will not consider for error data table. If any change in text will not consider for UI labels.
+6.	If any node name changes in xml it will not work
+7.	frontend application will work with 3000 port and only 3000 port will allow to validate data from backend. CORS applied no no other port will work
+
+below are validations applied:
+1.	only (csv, xml) should be selected. Else, error message will display with “Invalid File Type, only csv and xml allowed”.
+2.	File will be validated only after click on Validate Data button is clicked.
+3.	Validate Data button will be disable if file is not selected.
+4.	File should contain data. else, error message will be display on UI once the file is processed.
+5.	Transaction reference number should be unique. else, the respective error message will be displayed in table under “Error Description column.
+6.	Start, Mutation and End balance are required. 
+7.	Error column is also included in UI. It contains specific validation error message.
+8. 	basic test cases added, we can add more.
+
+
+Please follow below stepsfile validation:
+1.  Launch both the application frontend and backend.
+2.  Click on "Select A File" button.
+3.  Upload support files (only csv, xml allowed).
+4.  Click on "Validate Data" button.
+5.  Once the validation is completed, if all records are valid then success message will display else error records will display with appropriate message. 
