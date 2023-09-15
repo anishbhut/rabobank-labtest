@@ -2,7 +2,7 @@
 
 ## What is the use of this Repo
 
-This Project is a Simple Rabobank Lab Tes
+This Project is a Simple Rabobank Lab Test
 ## Prerequisites
 
 ### Install Node JS
